@@ -22,12 +22,14 @@ Java and Ice for the Android client so that it can communicate with the metaServ
 
 ## Running the app
 Go to Server/IceStormPythonService/META  
-Launch IceBox with > icebox --Ice.Config=config.icebox  
-Launch > metaServer.py   
+Launch IceBox and the metaServer:  
+> icebox --Ice.Config=config.icebox  
+> python metaServer.py   
 
-Go to Server/IceStormPythonService/SubServers  
-Launch > server1.py & server2.py  
+Go to Server/IceStormPythonService/SubServers 
+Launch the subservers:  
+> server1.py & server2.py  
 
-Launch or open with android studio the 'AndroidIce' project.  
+Launch or open with android studio the 'AndroidIce' project, build and run. 
 
 Click on any music and listen!
