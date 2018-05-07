@@ -44,3 +44,8 @@ If they are not working as intended:
 
 If the app displays a white screen:
 > Server AND/OR IceBox is not running and the app cannot connect to the service
+
+## Repos
+Both server and client are available through git repos:
+- Server : https://github.com/fLaVz/IceStormPythonService  
+- Client : https://github.com/fLaVz/AndroidIceClient
