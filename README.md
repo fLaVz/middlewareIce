@@ -28,7 +28,7 @@ Launch IceBox and the metaServer:
 
 Go to Server/IceStormPythonService/SubServers 
 Launch the subservers:  
-> server1.py & server2.py  
+> python server1.py & python server2.py  
 
 Launch or open with android studio the 'AndroidIce' project, build and run. 
 
