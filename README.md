@@ -24,12 +24,16 @@ All Ice version are 3.7
 Google exo player for android.
 
 ## Running the app
-Go to Server/IceStormPythonService/META  
+First, Clone or download this 2 projects:
+- Server : https://github.com/fLaVz/IceStormPythonService  
+- Client : https://github.com/fLaVz/AndroidIceClient
+
+Go to IceStormPythonService/META  
 Launch IceBox and the metaServer:  
 > icebox --Ice.Config=config.icebox  
 > python metaServer.py   
 
-Go to Server/IceStormPythonService/SubServers 
+Go to IceStormPythonService/SubServers 
 Launch the subservers:  
 > python server1.py & python server2.py  
 
