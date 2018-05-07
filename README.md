@@ -24,7 +24,7 @@ All Ice version are 3.7
 Google exo player for android.
 
 ## Running the app
-First, Clone or download this 2 projects:
+First, Clone or download these 2 projects:
 - Server : https://github.com/fLaVz/IceStormPythonService  
 - Client : https://github.com/fLaVz/AndroidIceClient
 
