@@ -1,7 +1,7 @@
 # MiddlewareIce
 
 This is the streaming application for middleware subject.
-![main window](images/screen.png)
+![main window](images/screen.png =540x960)
 
 ## Description
 I created an Android application which can display musics available on several servers.  
