@@ -33,3 +33,11 @@ Launch the subservers:
 Launch or open with android studio the 'AndroidIce' project, build and run. 
 
 Click on any music and listen!
+
+## Troubleshooting
+If the app is not working please verify the subservers status.
+If there are not working as intended:  
+> Delete all the files in Server/IceStormPythonServer/db folder and restart everything  
+
+If the app displays a white screen:
+> Server AND/OR IceBox is not running and the app cannot connect to the service
