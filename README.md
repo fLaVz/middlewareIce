@@ -21,4 +21,13 @@ IceBox and IceStorm to create a pub/sub service with a metaServer and subservers
 Java and Ice for the Android client so that it can communicate with the metaServer.
 
 ## Running the app
-Launch or open with android studio the 'AndroidIce'
+Go to Server/IceStormPythonService/META  
+Launch IceBox with > icebox --Ice.Config=config.icebox  
+Launch > metaServer.py   
+
+Go to Server/IceStormPythonService/SubServers  
+Launch > server1.py & server2.py  
+
+Launch or open with android studio the 'AndroidIce' project.  
+
+Click on any music and listen!
