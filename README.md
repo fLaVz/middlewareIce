@@ -1,6 +1,7 @@
 # MiddlewareIce
 
 This is the streaming application for middleware subject.  
+---
 <img src="images/screen.png" width="50%" height="50%">
 
 ## Description
