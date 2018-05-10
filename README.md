@@ -39,7 +39,27 @@ Launch the subservers:
 
 Launch or open with android studio the 'AndroidIce' project, build and run. 
 
-Click on any music and listen!
+Click on any music and listen!  
+
+## Structure explanation
+
+### Android client
+Ice is implemented in the gradle build. This allows the application to generate Ice
+definitions so that the application can communicate with the metaserver.
+Google exo player is also implemented to read the streaming link provided by the subservers.
+I used the google player because I had buffering issues with the classic android media player.  
+
+### Meta Server
+The meta server is basically a "parser" which takes the name of the song and the action 
+to do on subservers. IceStorm is implemented in order to communicate with several servers 
+and playlists/songs.
+This server act as a publisher for the IceStorm service.
+
+### SubServers
+These servers contains physicals .mp3 files and can create streaming links that the android application 
+read trough the player.   
+These servers are subscriber of the IceStorm service.
+
 
 ## Troubleshooting
 If the app is not working please verify the subservers status.
